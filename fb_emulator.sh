@@ -1,0 +1,1 @@
+firebase emulators:start -P demo-fb --only database,auth,hosting --import=./.firebase-data --export-on-exit=./.firebase-data

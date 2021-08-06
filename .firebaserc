@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "demo-fb"
+  },
+  "targets": {
+    "demo-fb": {
+      "database": {
+        "default": [
+          "demo-fb"
+        ]
+      }
+    }
+  }
+}
