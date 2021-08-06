@@ -1,0 +1,15 @@
+services:
+  fb-demo:
+    image: firebase-emulator
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 4000:4000
+      - 8080:8080
+      - 9099:9099
+      - 9000:9000
+      - 5000:5000
+    volumes:
+      - ./:/app
+      # - .cache/firebase/emulators/:/app/.cache/firebase/emulators/ 
